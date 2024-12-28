@@ -1,0 +1,39 @@
+.hero-section {
+    position: relative;
+    height: 600px;
+    background-image: url('/public/images/pic1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.5);
+    padding: 70px;
+    
+  }
+  
+  .overlay h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+   
+  .register-btn {
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .register-btn:hover {
+    background-color: #dd145e;
+  }
+  

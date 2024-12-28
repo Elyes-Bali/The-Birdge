@@ -1,0 +1,14 @@
+.myimage::file-selector-button {
+    cursor: pointer;
+    width: 100%;
+    z-index: 2;
+    height: 5vh;
+    border: none;
+    margin: 0%;
+    font: 400 1vmax cursive;
+    transition: all 0.5s;
+    padding: 0 1vmax;
+    color: white;
+    background-color: rgb(4, 128, 252);
+    margin-bottom: 10px;
+  }
